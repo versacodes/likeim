@@ -2,6 +2,7 @@
 import TheHeader from './components/TheHeader.vue'
 import BaseInput from './components/BaseInput.vue'
 import BaseButton from './components/BaseButton.vue'
+import TheFooter from './components/TheFooter.vue'
 </script>
 
 <template>
@@ -22,6 +23,8 @@ import BaseButton from './components/BaseButton.vue'
       />
     </div>
   </main>
+
+  <TheFooter/>
 </template>
 
 <style scoped>
